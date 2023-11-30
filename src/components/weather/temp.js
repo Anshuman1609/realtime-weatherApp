@@ -50,7 +50,7 @@ const Temp = () => {
       </div>
     </div>
     {/* our temp card */}
-    <Weathercard tempInfo = {tempInfo} />
+    <Weathercard {...tempInfo} />
   </>
 }
 
